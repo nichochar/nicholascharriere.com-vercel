@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -11,7 +12,6 @@ export default function Home() {
         alt="Nicholas Charriere"
       />
       <h1 className="text-4xl font-extrabold m-4">Nicholas Charriere</h1>
-
       <p className="max-w-xl pt-4 sm:pt-2">
         I&rsquo;m a programmer that loves building things, working on hard
         problems and collaborating with interesting people.
@@ -33,7 +33,6 @@ export default function Home() {
         </a>
         .
       </p>
-
       <p className="max-w-xl pt-8 sm:pt-6">
         I recently was a founding engineer at{" "}
         <a
@@ -64,6 +63,12 @@ export default function Home() {
         </a>{" "}
         before joining Cruise.
       </p>
+      <Link
+        className="pt-16 text-text-700 text-xl font-medium underline hover:text-froly-500"
+        href="/projects"
+      >
+        Projects
+      </Link>
     </main>
   );
 }

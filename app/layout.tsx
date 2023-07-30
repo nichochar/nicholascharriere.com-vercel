@@ -38,7 +38,7 @@ export default function RootLayout({
               <TwitterLogoIcon />
             </a>
           </header>
-          <main> {children}</main>
+          <main className="px-4"> {children}</main>
           <footer className="h-10"></footer>
         </div>
       </body>
