@@ -4,7 +4,7 @@ export default function Home() {
       <h1 className="text-4xl font-extrabold m-4">Projects</h1>
 
       <div className="flex flex-col">
-        <a href="https://github.com" className="hover:text-froly-500">
+        <a href="https://github.com/nichochar" className="hover:text-froly-500">
           <h2 className="text-xl font-medium pt-6">Open source</h2>
         </a>
         <p className="max-w-xl pt-1">

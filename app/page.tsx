@@ -11,8 +11,8 @@ export default function Home() {
         className="rounded-full"
         alt="Nicholas Charriere"
       />
-      <h1 className="text-4xl font-extrabold m-4">Nicholas Charriere</h1>
-      <p className="max-w-xl pt-4 sm:pt-2">
+      <h1 className="text-4xl font-extrabold m-8">Nicholas Charriere</h1>
+      <p className="max-w-xl">
         I&rsquo;m a programmer that loves building things, working on hard
         problems and collaborating with interesting people.
       </p>
@@ -62,6 +62,24 @@ export default function Home() {
           Pinterest
         </a>{" "}
         before joining Cruise.
+      </p>
+      <p className="max-w-xl pt-8 sm:pt-6">
+        In my spare time, I enjoy spending time with my wife Emily, going on
+        adventures with my dog Zoey,{" "}
+        <a
+          href="https://www.strava.com/athletes/50865371"
+          className="text-text-700 font-medium underline hover:text-froly-500"
+        >
+          cycling
+        </a>
+        , reading,{" "}
+        <a
+          href="https://500px.com/p/nichochar?view=photos"
+          className="text-text-700 font-medium underline hover:text-froly-500"
+        >
+          photography
+        </a>{" "}
+        and cooking.
       </p>
       <Link
         className="pt-16 text-text-700 text-xl font-medium underline hover:text-froly-500"
