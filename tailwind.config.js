@@ -1,18 +1,43 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        bg: "#F5E9D4",
+        medium: "#B79C94",
+        text: {
+          50: "#f7f7f6",
+          100: "#e6e4e1",
+          200: "#cdc9c2",
+          300: "#aca79c",
+          400: "#8a8477",
+          500: "#646054",
+          600: "#585549",
+          700: "#48453d",
+          800: "#3c3a33",
+          900: "#34322d",
+          950: "#1c1b17",
+        },
+        froly: {
+          50: "#fdf3f3",
+          100: "#fce5e4",
+          200: "#fbcecd",
+          300: "#f7acaa",
+          400: "#ef6f6c",
+          500: "#e5514e",
+          600: "#d23430",
+          700: "#b02825",
+          800: "#922522",
+          900: "#792523",
+          950: "#420e0d",
+        },
       },
     },
   },
   plugins: [],
-}
+};
