@@ -11,7 +11,7 @@ export default function Home() {
         className="rounded-full"
         alt="Nicholas Charriere"
       />
-      <h1 className="text-4xl font-extrabold m-8">Nicholas Charriere</h1>
+      <h1 className="text-4xl font-extrabold my-8">Nicholas Charriere</h1>
       <p className="max-w-xl">
         I&rsquo;m a programmer that loves building things, working on hard
         problems and collaborating with interesting people.
