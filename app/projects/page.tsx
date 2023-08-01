@@ -35,7 +35,6 @@ export default function Home() {
         <p className="max-w-xl pt-1">
           A blog focused on small bites of knowledge in software & startups.
         </p>
-        https://paragraph.xyz/@nichochar
         <a
           href="https://paragraph.xyz/@nichochar"
           className="hover:text-froly-500"
