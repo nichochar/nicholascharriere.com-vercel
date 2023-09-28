@@ -13,16 +13,15 @@ export default function Home() {
       />
       <h1 className="text-4xl font-extrabold my-8">Nicholas Charriere</h1>
       <p className="max-w-xl">
-        I&rsquo;m a programmer that loves building things, working on hard
-        problems and collaborating with interesting people.
+        I&rsquo;m a programmer that loves building, learning, and collaborating with smart people.
       </p>
       <p className="max-w-xl pt-8 sm:pt-6">
         I&rsquo;m currently building an AI company named{" "}
         <a
           className="text-text-700 font-medium underline hover:text-froly-500"
-          href="https://axilla.io"
+          href="https://axflow.dev"
         >
-          Axilla
+          Axflow
         </a>{" "}
         (part of YC summer 2023) with my co-founder and good friend{" "}
         <a
