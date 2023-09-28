@@ -8,7 +8,7 @@ export default function Home() {
           <h2 className="text-xl font-medium pt-6">Axflow</h2>
         </a>
         <p className="max-w-xl pt-1">
-	 The current product I'm building. Axflow is a TypeScript framework for building AI applications.
+	 The current product I&apos;m building. Axflow is a TypeScript framework for building AI applications.
         </p>
         <a href="https://github.com/nichochar" className="hover:text-froly-500">
           <h2 className="text-xl font-medium pt-6">Open source</h2>
