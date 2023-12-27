@@ -1,14 +1,19 @@
+import {HomeIcon} from '@radix-ui/react-icons';
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-extrabold m-4">Projects</h1>
+    <main className="container max-w-xl mx-auto">
+      <div className="mb-10 opacity-50 flex gap-2 items-center hover:text-froly-500">
+        <HomeIcon />
+        <a href="/">Home</a>
+      </div>
+      <h1 className="text-4xl font-bold">Projects</h1>
 
       <div className="flex flex-col">
         <a href="https://axflow.dev" className="hover:text-froly-500">
           <h2 className="text-xl font-medium pt-6">Axflow</h2>
         </a>
         <p className="max-w-xl pt-1">
-	 The current product I&apos;m building. Axflow is a TypeScript framework for building AI applications.
+          Currendly building this company. Our mission is to help product teams ship AI products faster. We build tools that cover the entire AI production lifecycle.
         </p>
         <a href="https://github.com/nichochar" className="hover:text-froly-500">
           <h2 className="text-xl font-medium pt-6">Open source</h2>
@@ -26,7 +31,7 @@ export default function Home() {
         </a>
         <p className="max-w-xl pt-1">
           I was curious about how blockchain technology worked, so I built an
-          NFT collection to learn more about it.
+          NFT collection to learn more about it. Art and code were all from me.
         </p>
         <a href="https://avostories.com" className="hover:text-froly-500">
           <h2 className="text-xl font-medium pt-6">Avostories</h2>

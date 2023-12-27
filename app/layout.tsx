@@ -34,17 +34,19 @@ export default function RootLayout({
         ></script>
       </head>
       <body className={`${roboto.className} bg-bg text-text-500`}>
-        <div className="flex flex-col h-screen justify-between">
-          <header className="h-10 flex justify-end gap-4 items-center mx-6">
+        <div className="flex flex-col h-screen">
+          <header className="h-10 flex justify-end mx-6">
+            <div className="flex justify-end gap-4 items-center">
             <a href="https://github.com/nichochar">
-              <GitHubLogoIcon />
+              <GitHubLogoIcon className="hover:text-froly-500"/>
             </a>
             <a href="https://www.linkedin.com/in/nicholas-charriere/">
-              <LinkedInLogoIcon />
+              <LinkedInLogoIcon className="hover:text-froly-500"/>
             </a>
             <a href="https://twitter.com/nichochar">
-              <TwitterLogoIcon />
+              <TwitterLogoIcon className="hover:text-froly-500"/>
             </a>
+            </div>
           </header>
           <main className="px-4"> {children}</main>
           <footer className="h-10"></footer>
