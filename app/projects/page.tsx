@@ -1,4 +1,9 @@
 import {HomeIcon} from '@radix-ui/react-icons';
+
+export const metadata = {
+  title: "Projects | Nicholas Charriere"
+}
+
 export default function Home() {
   return (
     <main className="container max-w-xl mx-auto">

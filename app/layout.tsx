@@ -16,6 +16,24 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Nicholas Charriere",
+  keywords: ['Nicholas Charriere', 'Axflow', 'founder', 'personal page nicholas charriere', 'programmer AI'],
+  metadataBase: new URL('https://nicholascharriere.com'),
+  openGraph: {
+    title: 'Nicholas Charriere',
+    description: 'The personal website of Nicholas Charriere.',
+    url: 'https://nicholascharriere.com',
+    siteName: 'Nicholas Charriere',
+    images: '/nicholas2.jpg',
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Nicholas Charriere',
+    description: 'The personal website of Nicholas Charriere.',
+    creator: '@nichochar',
+    images: ['https://nicholascharriere.com/nicholas2.jpg'],
+  },
 };
 
 export default function RootLayout({
