@@ -60,7 +60,7 @@ export default function RootLayout({
               <GitHubLogoIcon className="hover:text-froly-500 transition-all"/>
             </a>
               <a href="https://warpcast.com/pushix">
-                <FarcasterIcon fill="#646054" className="p-[1px] hover:text-froly-500 transition-all"/>
+                <FarcasterIcon className="p-[1px] hover:text-froly-500 transition-all"/>
               </a>
             <a href="https://www.linkedin.com/in/nicholas-charriere/">
               <LinkedInLogoIcon className="hover:text-froly-500 transition-all"/>
