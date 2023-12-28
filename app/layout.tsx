@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
+import {FarcasterIcon} from './svg/farcaster';
 import {
   TwitterLogoIcon,
   LinkedInLogoIcon,
@@ -58,6 +59,9 @@ export default function RootLayout({
             <a href="https://github.com/nichochar">
               <GitHubLogoIcon className="hover:text-froly-500 transition-all"/>
             </a>
+              <a href="https://warpcast.com/pushix">
+                <FarcasterIcon fill="#646054" className="p-[1px] hover:text-froly-500 transition-all"/>
+              </a>
             <a href="https://www.linkedin.com/in/nicholas-charriere/">
               <LinkedInLogoIcon className="hover:text-froly-500 transition-all"/>
             </a>
